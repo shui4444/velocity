@@ -1,0 +1,10 @@
+package template;
+/**
+ * @author Shui
+ * @date 2020/6/17
+ */
+public class UserEntity {
+    #foreach( $item in $list)
+      private $item.type $item.field
+    #end
+}
